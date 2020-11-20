@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content:center ;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(2, 2, 29);
+}
+.main{
+    width: 350px;
+    background-color: black;
+    border-radius: 15px;
+
+}
+input[type="textview"]{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(25, 2, 36);
+    font-size: 22px ;
+    text-align: left;
+    padding-left: 10px;
+}
+
+form .buttons{
+    width: 300px;
+    margin: 10px 25px 0 25px;
+    padding: 10px 0;
+    align-items: center;
+}
+
+
+input[type="button"]{
+    width: 40px;
+    margin: 2px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: solid rgb(2, 36, 82);
+    background: linear-gradient(black,blue )
+}
+input[type="button"]:hover{
+    transition: 5s;
+    background: linear-gradient(blue, black);
+
+}
+input#clear{
+    color: red;
+}
+
+input#equal{
+    color: rgb(16, 236, 90);
+}
