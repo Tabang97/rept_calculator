@@ -13,5 +13,5 @@ function equal(){
 function clear(){
     document.getElementById('screen').value = ''
 
-    console.log("clear clicked")
+    // console.log("clear clicked")
 }
