@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculators.css">
+    <script src="calculators.js"></script>
+    
+</head>
+<body>
+    <div class="main">
+        <!-- <form name="forms">  -->
+            <input type="textview" id="screen">
+            <div class="buttons">
+
+                <input type="button" id="seven" value='7' onclick="view('7')" >
+                <input type="button" id="eight" value='8' onclick="view('8')">
+                <input type="button" id="nine" value='9' onclick="view('9')">
+                <input type="button" id="multiply" value='*' onclick="view('*')"><br>
+
+                <input type="button" id="four" value='4' onclick="view('4')">
+                <input type="button" id="five" value='5' onclick="view('5')">
+                <input type="button" id="six" value='6' onclick="view('6')">
+                <input type="button" id="minus" value='-' onclick="view('-')"><br>
+
+                <input type="button" id="one" value='1' onclick="view('1')">
+                <input type="button" id="two" value='2' onclick="view('2')">
+                <input type="button" id="three" value='3' onclick="view('3')">
+                <input type="button" id="add" value='+' onclick="view('+')"><br>
+
+                <input type="button" id="divide" value='/' onclick="view('/')">
+                <input type="button" id="zero" value='0' onclick="view('0')">
+                <input type="button" id="dot" value='.' onclick="view('.')">
+                <input type="button" id="equal" value='=' onclick="equal()" ><br>
+
+                <input type="button" id="clear" value='C' onclick="clear()">
+
+                
+            </div>
+        <!-- </form> -->
+
+    </div>
+    
+</body>
+</html>
